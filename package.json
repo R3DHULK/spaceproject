@@ -1,0 +1,33 @@
+{
+  "name": "Space.js",
+  "version": "1.0.0",
+  "description": "${SpaceProject} is an interactive experience that allows users to travel across the solar system and view planets. Users can click on a button that allows them to select a particular planet or celestial object, and the application will perform a flyby and traverse to that planet, displaying its relevant information in a side modal. ## Functionality and MVP Features In Space.js, users will be able to  - Fly around the solar system and view other planets  - Go directly to a planet and be able to have a Lazy Susan view of the planet along with a modal box of its various statistics  - Start, pause, reset and restart the simulation  - Mute and unmute the music",
+  "private": "true",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fwep/Space.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fwep/Space.js/issues"
+  },
+  "homepage": "https://github.com/Fwep/Space.js#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@material-ui/core": "^3.8.3",
+    "babel-loader": "^8.0.5",
+    "lodash": "^4.17.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "three": "^0.100.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
